@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Encabezados HTML</title>
+    <link rel="stylesheet" href="./assets/css/style.css">
+</head>
+<body>
+    
+    <h1 class="page__title">Página de Ejemplo con Listas BEM</h1>
+
+    <!-- Sección 1: Lista Ordenada -->
+    <section class="section">
+        <h2 class="section__title">Pasos para completar una tarea</h2>
+        <p class="section__description">A continuación se detallan los pasos que debes seguir para completar una tarea:</p>
+        <ol class="list list--ordered">
+            <li class="list__item">Revisar los requisitos de la tarea.</li>
+            <li class="list__item">Planificar las actividades y los recursos necesarios.</li>
+            <li class="list__item">Ejecutar cada paso de acuerdo al plan.</li>
+            <li class="list__item">Revisar y ajustar según sea necesario.</li>
+            <li class="list__item">Finalizar la tarea y presentar los resultados.</li>
+        </ol>
+    </section>
+
+    <!-- Sección 2: Lista Desordenada -->
+    <section class="section">
+        <h2 class="section__title">Materiales necesarios</h2>
+        <p class="section__description">Para llevar a cabo esta tarea, necesitarás los siguientes materiales:</p>
+        <ul class="list list--unordered">
+            <li class="list__item">Computadora o dispositivo móvil.</li>
+            <li class="list__item">Acceso a internet.</li>
+            <li class="list__item">Software de gestión de tareas.</li>
+            <li class="list__item">Documentación relacionada con la tarea.</li>
+            <li class="list__item">Tiempo y dedicación.</li>
+        </ul>
+    </section>
+
+    <!-- Sección 3: Lista Mixta -->
+    <section class="section">
+        <h2 class="section__title">Tareas con sub-pasos</h2>
+        <p class="section__description">Algunas tareas requieren pasos adicionales:</p>
+        <ul class="list list--unordered">
+            <li class="list__item">Preparación inicial:
+                <ol class="list list--ordered">
+                    <li class="list__item">Revisar el equipo.</li>
+                    <li class="list__item">Comprobar recursos disponibles.</li>
+                </ol>
+            </li>
+            <li class="list__item">Ejecución de la tarea:
+                <ol class="list list--ordered">
+                    <li class="list__item">Seguir los pasos planificados.</li>
+                    <li class="list__item">Monitorear el progreso.</li>
+                </ol>
+            </li>
+            <li class="list__item">Finalización:
+                <ul class="list list--unordered">
+                    <li class="list__item">Realizar una revisión final.</li>
+                    <li class="list__item">Preparar el reporte.</li>
+                </ul>
+            </li>
+        </ul>
+    </section>
+</body>
+</html>
